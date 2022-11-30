@@ -38,10 +38,10 @@ public class Histogram extends JPanel {
         int panelHeight = dim.height;
         int barWidth = panelWidth / values.length;
 
-        Font titleFont = new Font("Book Antique", Font.BOLD, 15);
+        Font titleFont = new Font("Bar chart", Font.BOLD, 15);
         FontMetrics titleFontMetrics = g.getFontMetrics(titleFont);
 
-        Font labelFont = new Font("Book Antique", Font.PLAIN, 14);
+        Font labelFont = new Font("Bar chart", Font.PLAIN, 14);
         FontMetrics labelFontMetrics = g.getFontMetrics(labelFont);
 
         int titleWidth = titleFontMetrics.stringWidth(title);
